@@ -11,5 +11,5 @@ for (i in 1:times) {
 
 result <- factor(result, levels = 1:10, labels = paste0("中 ", 1:10, " 格"))
 table(result)
-plot(result)
+# plot(result)
 sum(table(result)/times) == 1
